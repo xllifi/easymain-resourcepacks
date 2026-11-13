@@ -1,0 +1,14 @@
+{
+  "commandwhitelist.prefix": "[Система]",
+
+  "commandwhitelist.command.denied": "Неизвестная команда.",
+  "commandwhitelist.subcommand.denied": "Вы не можете использовать эту подкоманду.",
+  "commandwhitelist.subcommand.unknown": "Неизвестная подкоманда.",
+  "commandwhitelist.permission.denied": "У вас нет прав для выполнения этого действия.",
+
+  "commandwhitelist.config.reloaded": "Конфигурация перезагружена.",
+  "commandwhitelist.group.not_found": "Группа не существует или произошла ошибка.",
+
+  "commandwhitelist.whitelist.added": "Команда %s добавлена в белый список разрешения %s.",
+  "commandwhitelist.whitelist.removed": "Команда %s удалена из белого списка разрешения %s."
+}

@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "easymain:include/icons/emoticons"
+        },
+        {
+            "type": "reference",
+            "id": "easymain:include/icons/internal"
+        },
+        {
+            "type": "reference",
+            "id": "easymain:include/icons/prefixes"
+        },
+        {
+            "type": "reference",
+            "id": "easymain:include/icons/rewards"
+        }
+    ]
+}

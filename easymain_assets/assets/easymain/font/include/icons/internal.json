@@ -1,0 +1,14 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "easymain:font/icons/internal.png",
+            "height": 10,
+            "ascent": 8,
+            "chars": [
+                "\uE001\uE002\uE003\uE004\uE005",
+                "\uE006\uE007\uE008\uE009\uE010"
+            ]
+        }
+    ]
+}

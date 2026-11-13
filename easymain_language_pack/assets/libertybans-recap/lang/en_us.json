@@ -1,0 +1,17 @@
+{
+  "recap.prefix": "[Bans]",
+  "recap.header": "Your active punishments:",
+  "recap.type.mute": "mute",
+  "recap.type.warn": "warn",
+  "recap.type.ban": "ban",
+  "recap.type.kick": "kick",
+  "recap.permanent": "permanent",
+  "recap.remaining": "%s more",
+  "recap.duration.day": "%sd",
+  "recap.duration.hour": "%sh",
+  "recap.duration.minute": "%smin",
+  "recap.duration.second": "%ss",
+  "recap.reload.success": "Recap translations reloaded.",
+  "recap.reload.failure": "Could not reload Recap translations. Check the proxy log.",
+  "recap.command.usage": "Usage: /recap reload"
+}

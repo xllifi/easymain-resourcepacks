@@ -1,0 +1,68 @@
+{
+	"model": {
+		"type": "minecraft:range_dispatch",
+		"property": "minecraft:custom_model_data",
+		"entries": [
+			{
+				"threshold": 7840,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/inactive_medal"
+				}
+			},
+			{
+				"threshold": 7841,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/coal_medal"
+				}
+			},
+			{
+				"threshold": 7842,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/copper_medal"
+				}
+			},
+			{
+				"threshold": 7843,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/iron_medal"
+				}
+			},
+			{
+				"threshold": 7844,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/lapis_medal"
+				}
+			},
+			{
+				"threshold": 7845,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/gold_medal"
+				}
+			},
+			{
+				"threshold": 7846,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/emerald_medal"
+				}
+			},
+			{
+				"threshold": 7847,
+				"model": {
+					"type": "minecraft:model",
+					"model": "easymain:item/medals/diamond_medal"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/paper"
+		}
+	}
+}

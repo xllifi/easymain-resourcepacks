@@ -1,0 +1,17 @@
+{
+  "recap.prefix": "[Баны]",
+  "recap.header": "Ваши активные наказания:",
+  "recap.type.mute": "мут",
+  "recap.type.warn": "предупреждение",
+  "recap.type.ban": "бан",
+  "recap.type.kick": "кик",
+  "recap.permanent": "вечно",
+  "recap.remaining": "ещё %s",
+  "recap.duration.day": "%sдн",
+  "recap.duration.hour": "%sч",
+  "recap.duration.minute": "%sмин",
+  "recap.duration.second": "%sс",
+  "recap.reload.success": "Переводы Recap перезагружены.",
+  "recap.reload.failure": "Не удалось перезагрузить переводы Recap. Проверьте журнал прокси.",
+  "recap.command.usage": "Использование: /recap reload"
+}

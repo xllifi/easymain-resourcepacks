@@ -1,0 +1,6 @@
+# Exclude everything
+/*
+
+# Only include something
+!/easymain_*
+!/.gitignore

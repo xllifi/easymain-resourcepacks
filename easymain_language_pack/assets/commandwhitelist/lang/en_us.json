@@ -1,0 +1,14 @@
+{
+  "commandwhitelist.prefix": "[System]",
+
+  "commandwhitelist.command.denied": "Unknown command.",
+  "commandwhitelist.subcommand.denied": "You cannot use this subcommand.",
+  "commandwhitelist.subcommand.unknown": "Unknown subcommand.",
+  "commandwhitelist.permission.denied": "You don't have permission to do that.",
+
+  "commandwhitelist.config.reloaded": "Configuration reloaded.",
+  "commandwhitelist.group.not_found": "The group does not exist, or an error occurred.",
+
+  "commandwhitelist.whitelist.added": "Command %s added to the whitelist for permission %s.",
+  "commandwhitelist.whitelist.removed": "Command %s removed from the whitelist for permission %s."
+}

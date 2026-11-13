@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "easymain:font/icons/prefixes.png",
+            "height": 10,
+            "ascent": 8,
+            "chars": [
+                "\uE641\uE642\uE643"
+            ]
+        }
+    ]
+}

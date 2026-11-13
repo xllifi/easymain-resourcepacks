@@ -1,0 +1,36 @@
+{
+  "optout.prefix": "§7[OptOut] ",
+  "optout.setting.pvp": "PvP",
+  "optout.setting.locator": "Locator",
+  
+  "optout.state.enabled": "enabled",
+  "optout.state.disabled": "disabled",
+  
+  "optout.status.preference": "%s %s (your preference).",
+  "optout.status.forced": "%s %s (forced by an area).",
+  "optout.area.override_started": "An area now overrides %s: %s.",
+  "optout.area.override_stopped": "An area no longer overrides %s. Your preference now applies: %s.",
+  
+  "optout.preference.enabled": "enabled",
+  "optout.preference.disabled": "disabled",
+  "optout.preference.already": "%s preference is already %s.",
+  "optout.preference.saved": "%s preference is now %s",
+  "optout.preference.saved_override": "%s preference is now %s and will take effect once you leave overriding areas.",
+  "optout.preference.save_failed": "Unable to save your preference. Your settings have not changed.",
+  
+  "optout.command.not_ready": "OptOut is not yet ready.",
+  "optout.command.status.self": "Your %s status:",
+  "optout.command.status.other": "%s's %s status:",
+  "optout.command.status.preference": "- %s %s (your preference).",
+  "optout.command.status.forced": "- %s %s (forced by area). Preference: %s.",
+  
+  "optout.pvp.cooldown": "Can't change PvP preference in combat! %s more seconds.",
+  "optout.pvp.cannot_attack": "You have PvP disabled.",
+  "optout.pvp.disabled_for": "%s has PvP disabled.",
+  "optout.pvp.protected": "%s attack was blocked by PvP setting.",
+  "optout.pvp.wolf_blocked.target": "%s's wolf's attack was blocked by PvP setting.",
+  "optout.pvp.wolf_blocked.owner": "Your wolf's attack on %s was blocked by PvP setting.",
+  
+  "optout.reload.success": "OptOut reloaded: %s area(s).",
+  "optout.reload.failed": "OptOut reload failed, check logs for details."
+}

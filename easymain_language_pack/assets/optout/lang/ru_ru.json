@@ -1,0 +1,36 @@
+{
+  "optout.prefix": "§7[OptOut] ",
+  "optout.setting.pvp": "PvP",
+  "optout.setting.locator": "Локатор",
+
+  "optout.state.enabled": "включён",
+  "optout.state.disabled": "выключен",
+
+  "optout.status.preference": "%s %s (по вашему предпочтению)",
+  "optout.status.forced": "%s %s (принудительно в зоне)",
+  "optout.area.override_started": "Зона теперь переопределяет %s: %s.",
+  "optout.area.override_stopped": "Зона больше не переопределяет %s. Теперь действует ваше предпочтение: %s.",
+
+  "optout.preference.enabled": "включено",
+  "optout.preference.disabled": "выключено",
+  "optout.preference.already": "Предпочтение «%s» уже %s.",
+  "optout.preference.saved": "Предпочтение «%s» теперь %s.",
+  "optout.preference.saved_override": "Предпочтение «%s» теперь %s и начнёт действовать, когда вы покинете зоны с принудительными настройками.",
+  "optout.preference.save_failed": "Не удалось сохранить предпочтение. Ваши предпочтения не изменились.",
+
+  "optout.command.not_ready": "OptOut ещё не готов.",
+  "optout.command.status.self": "Ваш статус %s:",
+  "optout.command.status.other": "Статус игрока %s (%s):",
+  "optout.command.status.preference": "- %s %s (по вашему предпочтению).",
+  "optout.command.status.forced": "- %s %s (принудительно в зоне). Предпочтение: %s.",
+
+  "optout.pvp.cooldown": "Во время боя нельзя изменять предопчтение PvP! Ещё %s секунд.",
+  "optout.pvp.cannot_attack": "У вас отключено PvP!",
+  "optout.pvp.disabled_for": "У %s отключено PvP!",
+  "optout.pvp.protected": "Атака %s заблокирована настройкой PvP",
+  "optout.pvp.wolf_blocked.target": "Атака волка %s заблокирована настройкой PvP",
+  "optout.pvp.wolf_blocked.owner": "Атака вашего волка по %s была заблокирована настройкой PvP",
+  
+  "optout.reload.success": "OptOut перезагружен. Количество зон: %s.",
+  "optout.reload.failed": "Не удалось перезагрузить OptOut, подробности в логах."
+}

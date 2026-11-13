@@ -1,0 +1,9 @@
+{
+    "noportals:disabled.end": "§cЭнд отключён.",
+    "noportals:disabled.endGateway": "§cВрата края отключены.",
+    "noportals:disabled.nether": "§cНезер отключён.",
+    "noportals:commands.option.reload": "Настройки No Portals перезагружены",
+    "noportals:commands.option.save": "Настройки No Portals сохранены",
+    "noportals:commands.option.query": "§fЗначение параметра No Portals %s§f: %s§f",
+    "noportals:commands.option.set": "§fУстановлено значение параметра No Portals %s§f: %s§f"
+}

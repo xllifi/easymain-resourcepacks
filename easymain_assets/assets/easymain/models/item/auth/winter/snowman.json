@@ -1,0 +1,159 @@
+{
+	"textures": {
+		"0": "easymain:item/auth/winter/snowman"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [1, 0, 1],
+			"to": [15, 14, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 11, 3.5], "texture": "#0"},
+				"east": {"uv": [3.75, 0, 7.25, 3.5], "texture": "#0"},
+				"south": {"uv": [11.25, 0, 14.75, 3.5], "texture": "#0"},
+				"west": {"uv": [3.75, 3.75, 7.25, 7.25], "texture": "#0"},
+				"up": {"uv": [0, 3.75, 3.5, 7.25], "texture": "#0"},
+				"down": {"uv": [0, 0, 3.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "torso",
+			"from": [2, 14, 2],
+			"to": [14, 24, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [3.25, 7.5, 6.25, 10], "texture": "#0"},
+				"east": {"uv": [0, 7.5, 3, 10], "texture": "#0"},
+				"south": {"uv": [6.5, 7.5, 9.5, 10], "texture": "#0"},
+				"west": {"uv": [9.75, 7.5, 12.75, 10], "texture": "#0"},
+				"up": {"uv": [10.75, 3.75, 13.75, 6.75], "texture": "#0"},
+				"down": {"uv": [7.5, 3.75, 10.5, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [4, 24, 4],
+			"to": [12, 32, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 10.25, 2, 12.25], "texture": "#0"},
+				"east": {"uv": [13, 7.5, 15, 9.5], "texture": "#0"},
+				"south": {"uv": [2.25, 10.25, 4.25, 12.25], "texture": "#0"},
+				"west": {"uv": [6.75, 10.25, 8.75, 12.25], "texture": "#0"},
+				"up": {"uv": [4.5, 10.25, 6.5, 12.25], "texture": "#0"},
+				"down": {"uv": [14, 3.75, 16, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "carrot_nose",
+			"from": [7, 27, 1],
+			"to": [9, 29, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [11, 10.25, 11.5, 10.75], "texture": "#0"},
+				"east": {"uv": [9, 10.25, 9.75, 10.75], "texture": "#0"},
+				"south": {"uv": [11.75, 10.25, 12.25, 10.75], "texture": "#0"},
+				"west": {"uv": [10, 10.25, 10.75, 10.75], "texture": "#0"},
+				"up": {"uv": [9, 11, 9.5, 11.75], "texture": "#0"},
+				"down": {"uv": [9.75, 11, 10.25, 11.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "left_arm",
+			"from": [-5.5, 20, 7],
+			"to": [2.5, 22, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [2.5, 21, 8]},
+			"faces": {
+				"north": {"uv": [2.25, 12.5, 4.25, 13], "texture": "#0"},
+				"east": {"uv": [9, 12.5, 9.5, 13], "texture": "#0"},
+				"south": {"uv": [4.5, 12.5, 6.5, 13], "texture": "#0"},
+				"west": {"uv": [9.75, 12.5, 10.25, 13], "texture": "#0"},
+				"up": {"uv": [6.75, 12.5, 8.75, 13], "texture": "#0"},
+				"down": {"uv": [0, 12.5, 2, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right_arm",
+			"from": [13.5, 20, 7],
+			"to": [21.5, 22, 9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [13.5, 21, 8]},
+			"faces": {
+				"north": {"uv": [2.25, 12.5, 4.25, 13], "texture": "#0"},
+				"east": {"uv": [9, 12.5, 9.5, 13], "texture": "#0"},
+				"south": {"uv": [4.5, 12.5, 6.5, 13], "texture": "#0"},
+				"west": {"uv": [9.75, 12.5, 10.25, 13], "texture": "#0"},
+				"up": {"uv": [6.75, 12.5, 8.75, 13], "texture": "#0"},
+				"down": {"uv": [0, 12.5, 2, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, -2.25, 0],
+			"scale": [0.38, 0.38, 0.38]
+		},
+		"fixed": {
+			"translation": [0, -3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "snowman",
+			"origin": [8, 0, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "body",
+					"origin": [8, 0, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "head",
+					"origin": [8, 24, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [2, 3]
+				},
+				{
+					"name": "arms",
+					"origin": [8, 21, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [4, 5]
+				}
+			]
+		}
+	]
+}

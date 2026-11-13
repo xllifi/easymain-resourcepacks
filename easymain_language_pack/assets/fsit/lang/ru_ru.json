@@ -1,0 +1,22 @@
+{
+  "commands.fsit.prefix": "§7[FSit] §r",
+
+  "option.fsit.use_server.enabled": "Клиент FSit отключён на этом сервере",
+
+  "option.fsit.riding_teleport_mode": "Телепортация пассажиров",
+  "option.fsit.riding_teleport_mode.vanilla": "Стандартная",
+  "option.fsit.riding_teleport_mode.disabled": "Отключена",
+  "option.fsit.riding_teleport_mode.enhanced": "Улучшенная",
+
+  "commands.fsit.error.not_player": "Эту команду может выполнить только игрок",
+  "commands.fsit.hands.added": "%s добавлен в список предметов, разрешённых для сидения",
+  "commands.fsit.hands.removed": "%s удалён из списка предметов, разрешённых для сидения",
+  "commands.fsit.hands.cleared": "Список разрешённых предметов очищен",
+  "commands.fsit.hands.reset": "Список разрешённых предметов сброшен до значений по умолчанию",
+  "commands.fsit.hands.list": "Предметы, разрешённые для сидения (%s): %s",
+  "commands.fsit.hands.list.empty": "Список разрешённых предметов пуст — любой предмет в руке будет мешать сидеть и ездить верхом",
+  "commands.fsit.hands.error.duplicate": "Этот предмет уже есть в списке",
+  "commands.fsit.hands.error.not_present": "Этого предмета нет в списке",
+  "commands.fsit.teleport.set": "Режим телепортации пассажиров изменён на %s",
+  "commands.fsit.teleport.query": "Режим телепортации пассажиров: %s"
+}

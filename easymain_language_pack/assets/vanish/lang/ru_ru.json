@@ -1,0 +1,11 @@
+{
+  "text.vanish.command.vanish.enable.other": "%s теперь в ванише",
+  "text.vanish.command.vanish.disable.other": "%s больше не в ванише",
+  "text.vanish.command.vanish.enable": "Теперь вы в ванише",
+  "text.vanish.command.vanish.disable": "Вы больше не в ванише",
+  "text.vanish.command.vanish.reload": "Конфиг перезагружен!",
+  "text.vanish.command.vanish.reload.error": "Произошла ошибка, проверьте консоль!",
+  "text.vanish.general.vanished": "Вы в ванише!",
+  "text.vanish.chat.hidden": " (скрыт)",
+  "text.vanish.chat.disabled": "Вы не можете общаться, пока вы в ванише."
+}

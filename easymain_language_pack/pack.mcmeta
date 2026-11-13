@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "min_format": [97, 1],
+    "max_format": [97, 1],
+    "description": {
+      "translate": "easymain.meta.language_pack.description",
+      "fallback": "EasyMain language pack"
+    }
+  }
+}

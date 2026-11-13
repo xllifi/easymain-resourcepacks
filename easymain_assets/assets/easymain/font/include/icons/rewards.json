@@ -1,0 +1,15 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "easymain:font/icons/rewards.png",
+            "height": 10,
+            "ascent": 8,
+            "chars": [
+                "\uE321\uE322\uE323\uE324\uE325\uE326\uE327\uE328",
+                "\uE329\uE330\uE331\uE332\uE333\uE334\uE335\uE336",
+                "\uE337\uE338\uE339\uE340\uE341\uE342\uE343\uE344"
+            ]
+        }
+    ]
+}

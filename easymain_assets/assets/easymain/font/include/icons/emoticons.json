@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "easymain:font/icons/emoticons.png",
+            "height": 10,
+            "ascent": 8,
+            "chars": [
+                "💥⏰😎😭💀🥳😡"
+            ]
+        }
+    ]
+}

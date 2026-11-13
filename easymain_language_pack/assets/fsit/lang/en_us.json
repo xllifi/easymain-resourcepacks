@@ -1,0 +1,22 @@
+{
+  "commands.fsit.prefix": "§7[FSit] §r",
+
+  "option.fsit.use_server.enabled": "FSit client is disabled on this server",
+
+  "option.fsit.riding_teleport_mode": "Riders on teleport",
+  "option.fsit.riding_teleport_mode.vanilla": "Vanilla",
+  "option.fsit.riding_teleport_mode.disabled": "Disabled",
+  "option.fsit.riding_teleport_mode.enhanced": "Enhanced",
+
+  "commands.fsit.error.not_player": "Only a player can run this command",
+  "commands.fsit.hands.added": "Added %s to your idle-hand list",
+  "commands.fsit.hands.removed": "Removed %s from your idle-hand list",
+  "commands.fsit.hands.cleared": "Idle-hand list cleared",
+  "commands.fsit.hands.reset": "Idle-hand list reset to defaults",
+  "commands.fsit.hands.list": "Idle hand items (%s): %s",
+  "commands.fsit.hands.list.empty": "Idle-hand list is empty — every non-empty hand will block sit/ride",
+  "commands.fsit.hands.error.duplicate": "That entry is already in your list",
+  "commands.fsit.hands.error.not_present": "That entry is not in your list",
+  "commands.fsit.teleport.set": "Riding teleport mode set to %s",
+  "commands.fsit.teleport.query": "Riding teleport mode: %s"
+}

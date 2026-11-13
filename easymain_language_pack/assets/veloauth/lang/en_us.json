@@ -24,10 +24,9 @@
   "veloauth.auth.command.in_progress": "Your request is already being processed.",
   "veloauth.auth.header": "§6Authorization",
   "veloauth.auth.prompt.generic": "Log in with /login <password> or register with /register <password> <confirm>.",
-  "veloauth.auth.account_exists": "Account found. Use /login <password>.",
+  "veloauth.auth.account_exists": "Use /login <password>",
   "veloauth.auth.first_time": "First time here? Use /register <password> <confirm>.",
   "veloauth.auth.must_login": "Log in before joining a game server.",
-  "veloauth.auth.logged_out": "You logged out. Reconnect to log in again.",
 
   "veloauth.2fa.disabled_in_config": "Two-factor authentication is disabled on this server.",
   "veloauth.2fa.usage": "Usage: /2fa <setup|verify|disable|qr|status>",
@@ -71,9 +70,6 @@
   "veloauth.player.conflict.option2": "2. Change your Minecraft nickname to restore premium access.",
   "veloauth.player.conflict.resolution": "The conflict will resolve automatically after you change your nickname.",
 
-  "veloauth.security.brute_force.blocked": "Too many failed login attempts. Try again later.",
-  "veloauth.security.name_snipe.denied": "This account belongs to another player. Access denied.",
-  "veloauth.security.api_failure.denied": "Couldn't verify your Minecraft account. Mojang's API is unavailable. Try again later.",
 
   "veloauth.security.session.hijack": "Session hijack attempt detected for player %s",
   "veloauth.security.session.ip.mismatch": "Session IP mismatch: expected %s, received %s",
@@ -81,13 +77,8 @@
   "veloauth.connection.waiting_for_server": "No game servers are available yet. Waiting for one to come online…",
   "veloauth.connection.connecting": "Connecting to the game server…",
   "veloauth.connection.retry": "Connection is taking longer than expected. Retrying…",
-  "veloauth.connection.already_connecting": "A connection is already in progress.",
 
-  "veloauth.connection.error.generic": "Couldn't connect. Try again.",
-  "veloauth.connection.error.database": "Couldn't verify your account because of a database error. Try again later.",
   "veloauth.connection.error.uuid_mismatch": "Your account's UUID doesn't match. Please contact an admin.",
-  "veloauth.connection.error.auth_server": "Authentication server unavailable. Try again later.",
-  "veloauth.connection.error.auth_connect": "Couldn't connect to the authentication server. Try again.",
   "veloauth.connection.error.game_server": "Couldn't connect to the game server (%s). Try again.",
   "veloauth.connection.error.no_servers": "No game servers are available. Try again later.",
 
@@ -177,7 +168,6 @@
   "veloauth.premium.check_disabled": "Premium account verification disabled",
   "veloauth.premium.check_enabled": "Premium account verification enabled",
 
-  "veloauth.validation.username.invalid": "Invalid nickname. Use 1–16 letters, numbers or underscores.",
   "veloauth.validation.password.empty": "Enter a password.",
   "veloauth.validation.password.too_short": "Password is too short (minimum %s characters).",
   "veloauth.validation.password.too_long": "Password is too long (maximum %s characters).",
@@ -256,16 +246,8 @@
   "veloauth.plugin.initialization.ready": "VeloAuth v1.6.1 ready",
   "veloauth.plugin.initialization.components_ready": "All components initialized",
 
-  "veloauth.system.starting": "Authentication service is starting. Try again shortly.",
-  "veloauth.system.init_error": "Authentication system failed to start. Contact an admin.",
   "veloauth.system.shutting_down": "Server is shutting down. This command is unavailable.",
   "veloauth.system.overloaded": "Server is busy. Try again shortly.",
 
-  "veloauth.embedded.status.motd": "§6Authentication server",
-
-  "veloauth.embedded.disconnect.invalid_forwarding": "Couldn't verify the secure proxy connection. Reconnect through the public server address.",
-  "veloauth.embedded.disconnect.overloaded": "Authentication server is full. Try again later.",
-  "veloauth.embedded.disconnect.timeout": "Authentication connection timed out. Reconnect to try again.",
-  "veloauth.embedded.disconnect.unavailable": "Authentication server is unavailable. Try again later.",
-  "veloauth.embedded.disconnect.unsupported_protocol": "Unsupported Minecraft version. Supported versions: %s."
+  "veloauth.embedded.status.motd": "§6Authentication server"
 }

@@ -24,10 +24,9 @@
   "veloauth.auth.command.in_progress": "Ваш запрос уже обрабатывается.",
   "veloauth.auth.header": "§6Авторизация",
   "veloauth.auth.prompt.generic": "Войдите через /login <пароль> или зарегистрируйтесь через /register <пароль> <повтор>.",
-  "veloauth.auth.account_exists": "Аккаунт найден. Используйте /login <пароль>.",
+  "veloauth.auth.account_exists": "Используйте /login <пароль>",
   "veloauth.auth.first_time": "Впервые на сервере? Используйте /register <пароль> <повтор>.",
   "veloauth.auth.must_login": "Войдите в аккаунт, прежде чем переходить на игровой сервер.",
-  "veloauth.auth.logged_out": "Вы вышли из аккаунта. Подключитесь снова, чтобы войти.",
 
   "veloauth.2fa.disabled_in_config": "Двухфакторная авторизация отключена на сервере.",
   "veloauth.2fa.usage": "Использование: /2fa <setup|verify|disable|qr|status>",
@@ -71,23 +70,14 @@
   "veloauth.player.conflict.option2": "2. Сменить ник Minecraft, чтобы вернуть доступ с лицензией.",
   "veloauth.player.conflict.resolution": "После смены ника конфликт разрешится автоматически.",
 
-  "veloauth.security.brute_force.blocked": "Слишком много неудачных попыток входа. Попробуйте позже.",
-  "veloauth.security.name_snipe.denied": "Этот аккаунт принадлежит другому игроку. Доступ запрещён.",
-  "veloauth.security.api_failure.denied": "Не удалось проверить аккаунт Minecraft: API Mojang недоступен. Попробуйте позже.",
-
   "veloauth.security.session.hijack": "Обнаружена попытка перехвата сессии игрока %s",
   "veloauth.security.session.ip.mismatch": "IP сессии не совпадает: ожидался %s, получен %s",
 
   "veloauth.connection.waiting_for_server": "Игровые серверы пока недоступны. Ожидаем подключения…",
   "veloauth.connection.connecting": "Подключаем к игровому серверу…",
   "veloauth.connection.retry": "Подключение задерживается. Пробуем ещё раз…",
-  "veloauth.connection.already_connecting": "Подключение уже выполняется.",
 
-  "veloauth.connection.error.generic": "Не удалось подключиться. Попробуйте ещё раз.",
-  "veloauth.connection.error.database": "Не удалось проверить аккаунт из-за ошибки базы данных. Попробуйте позже.",
   "veloauth.connection.error.uuid_mismatch": "UUID аккаунта не совпадает. Обратитесь к администратору.",
-  "veloauth.connection.error.auth_server": "Сервер авторизации недоступен. Попробуйте позже.",
-  "veloauth.connection.error.auth_connect": "Не удалось подключиться к серверу авторизации. Попробуйте ещё раз.",
   "veloauth.connection.error.game_server": "Не удалось подключиться к игровому серверу (%s). Попробуйте ещё раз.",
   "veloauth.connection.error.no_servers": "Нет доступных игровых серверов. Попробуйте позже.",
 
@@ -177,7 +167,6 @@
   "veloauth.premium.check_disabled": "Проверка лицензии отключена",
   "veloauth.premium.check_enabled": "Проверка лицензии включена",
 
-  "veloauth.validation.username.invalid": "Неверный ник. Используйте буквы, цифры и подчёркивания (до 16 символов).",
   "veloauth.validation.password.empty": "Введите пароль.",
   "veloauth.validation.password.too_short": "Пароль слишком короткий (минимум %s символов).",
   "veloauth.validation.password.too_long": "Пароль слишком длинный (максимум %s символов).",
@@ -256,16 +245,8 @@
   "veloauth.plugin.initialization.ready": "VeloAuth v1.6.1 готов к работе",
   "veloauth.plugin.initialization.components_ready": "Все компоненты запущены",
 
-  "veloauth.system.starting": "Система авторизации запускается. Попробуйте подключиться чуть позже.",
-  "veloauth.system.init_error": "Не удалось запустить авторизацию. Обратитесь к администратору.",
   "veloauth.system.shutting_down": "Сервер выключается. Команда недоступна.",
   "veloauth.system.overloaded": "Сервер перегружен. Попробуйте чуть позже.",
 
-  "veloauth.embedded.status.motd": "§6Сервер авторизации",
-
-  "veloauth.embedded.disconnect.invalid_forwarding": "Не удалось проверить защищённое подключение через прокси. Подключитесь через публичный адрес сервера.",
-  "veloauth.embedded.disconnect.overloaded": "Сервер авторизации заполнен. Попробуйте позже.",
-  "veloauth.embedded.disconnect.timeout": "Превышено время ожидания авторизации. Подключитесь снова.",
-  "veloauth.embedded.disconnect.unavailable": "Сервер авторизации недоступен. Попробуйте позже.",
-  "veloauth.embedded.disconnect.unsupported_protocol": "Версия Minecraft не поддерживается. Поддерживаемые версии: %s."
+  "veloauth.embedded.status.motd": "§6Сервер авторизации"
 }

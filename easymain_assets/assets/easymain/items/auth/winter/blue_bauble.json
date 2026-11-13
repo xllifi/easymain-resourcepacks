@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "easymain:item/auth/winter/bauble",
+    "tints": [
+      {
+        "type": "constant",
+        "value": [0.254902, 0.254902, 1.0]
+      }
+    ]
+  }
+}

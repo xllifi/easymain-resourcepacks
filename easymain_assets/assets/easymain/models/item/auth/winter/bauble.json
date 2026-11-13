@@ -1,0 +1,85 @@
+{
+	"format_version": "1.21.11",
+	"textures": {
+		"0": "easymain:item/auth/winter/bauble"
+	},
+	"elements": [
+		{
+			"name": "Horizontal body",
+			"from": [4, -2, 5],
+			"to": [12, 4, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 1, 8, 7], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9, 1, 15, 7], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 1, 16, 7], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9, 1, 15, 7], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5, 0, 13, 6], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [8, 1, 16, 7], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Vertical body",
+			"from": [5, -3, 5],
+			"to": [11, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [1, 0, 7, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9, 0, 15, 8], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9, 0, 15, 8], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9, 0, 15, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [9, 1, 15, 7], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9, 1, 15, 7], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Depth body",
+			"from": [5, -2, 4],
+			"to": [11, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 7, 7], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [8, 1, 16, 7], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9, 1, 15, 7], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [8, 1, 16, 7], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1, 0, 7, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9, 0, 15, 8], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Iron cap and hanging loop",
+			"from": [6.5, 5, 8],
+			"to": [9.5, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 3, 11], "texture": "#0"},
+				"south": {"uv": [3, 8, 0, 11], "texture": "#0"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "red_bauble",
+			"origin": [8, 14, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [8, 7, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [0, 1, 2]
+				},
+				{
+					"name": "Hanger",
+					"origin": [8, 11, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [3]
+				}
+			]
+		}
+	]
+}
